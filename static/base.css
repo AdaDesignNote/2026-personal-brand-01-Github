@@ -46,7 +46,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-family: "Noto Sans", sans-serif;
-  overflow-x: hidden;
+
 }
 
 input,
@@ -928,35 +928,6 @@ textarea::placeholder {
 
 }
 
-
-
-.top-all {
-  width: 100%;
-  /*這邊是寬度*/
-  max-width: 1920px;
-  /*max-width這邊是寬度超過1920之後就不會在變化*/
-  height: 380px;
-  margin: auto;
-  /*自己左右置中*/
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../2026-web-camp/blog_banner.png');
-  /*背景置入圖片*/
-  /*background-image 只接受圖片類型*/
-  /*linear-gradient(...) → 瀏覽器把它視為漸層圖片，可以放在 background-image*/
-  /* linear-gradient從半透明黑 → 半透明黑 = 就是純半透明黑色 */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  /* 裁切子物件 */
-  position: relative;
-  /*幫子物件定位*/
-
-  display: flex;
-  align-items: center;
-  /* 上下置中 ← 這行才是關鍵 */
-  justify-content: center;
-  /* 左右置中 */
-}
 
 .top-all-title {
   text-align: center;

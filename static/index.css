@@ -55,13 +55,16 @@
 
 
 ul.d-flex {
-    overflow-x: auto;  /*讓ul可以橫向滑動*/
+    overflow-x: auto;
+    /*讓ul可以橫向滑動*/
     max-width: 100%;
-    scrollbar-width: none; /* Firefox */
+    scrollbar-width: none;
+    /* Firefox */
 }
 
 ul.d-flex::-webkit-scrollbar {
-    display: none; /* Chrome、Safari */
+    display: none;
+    /* Chrome、Safari */
 }
 
 
@@ -185,7 +188,7 @@ ul.d-flex::-webkit-scrollbar {
     }
 
     body.menu-open {
-        overflow: hidden;
+
     }
 
     body.menu-open .mask {
@@ -198,6 +201,8 @@ ul.d-flex::-webkit-scrollbar {
         z-index: 2;
 
     }
+
+
 
     .project-card {
         padding-top: 280px;
@@ -280,16 +285,16 @@ ul.d-flex::-webkit-scrollbar {
     }
 
     .decorate-6 {
-    position: absolute;
-    display: block;
-    top: 398.41px;
-    left: 134.5px;
+        position: absolute;
+        display: block;
+        top: 398.41px;
+        left: 134.5px;
 
-    
-}
 
-   .card {
-     min-width: 260px;
+    }
+
+    .card {
+        min-width: 260px;
     }
 
 }
@@ -325,7 +330,3 @@ ul.d-flex::-webkit-scrollbar {
     margin: auto 0;
     /*通常auto 跟 0 會一起出現，讓物件置中*/
 }
-
-
-
-
