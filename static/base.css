@@ -605,7 +605,6 @@ a {
   max-width: 1320px;
   padding: 0px 12px;
   margin: auto;
-  overflow-x: hidden; /*測試看看*/
 }
 
 /* 格線系統設定 */

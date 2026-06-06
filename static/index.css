@@ -61,6 +61,7 @@
 
 
 ul.d-flex {
+    overflow-x: auto;  /*讓ul可以橫向滑動*/
     max-width: 100%;
     scrollbar-width: none; /* Firefox */
 }
