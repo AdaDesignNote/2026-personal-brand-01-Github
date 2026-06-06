@@ -2,8 +2,6 @@
     display: flex;
 }
 
-
-
 .btn-menu {
     display: none;
     /* 預設隱藏（桌機版不顯示） */
@@ -20,19 +18,15 @@
 }
 
 
-
-
 .contact-input-half {
     --gap: 24px;
     width: calc((100% - var(--gap))/2);
 }
 
-
 /* hero區塊樣式 */
 .hero {
     height: calc(100vh-64px);
 }
-
 
 
 /* project圖片 */
@@ -299,7 +293,6 @@ ul.d-flex::-webkit-scrollbar {
     }
 
 }
-
 
 
 
