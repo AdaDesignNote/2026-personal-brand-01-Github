@@ -1,0 +1,330 @@
+.nav-list {
+    display: flex;
+}
+
+
+
+.btn-menu {
+    display: none;
+    /* 預設隱藏（桌機版不顯示） */
+    border: 0;
+    padding: 12px;
+    background: transparent;
+    /* 移除按鈕預設背景 */
+    color: inherit;
+    /* 繼承父層文字顏色 */
+    font: inherit;
+    /* 繼承父層字型設定 */
+    cursor: pointer;
+    /* 滑鼠移入時顯示手型游標 */
+}
+
+
+
+
+.contact-input-half {
+    --gap: 24px;
+    width: calc((100% - var(--gap))/2);
+}
+
+
+/* hero區塊樣式 */
+.hero {
+    height: calc(100vh-64px);
+}
+
+
+
+/* project圖片 */
+
+.project-card {
+
+
+    &:nth-of-type(1) {
+        background-image: url("../2026-web-camp/project_1.png");
+    }
+
+    &:nth-of-type(2) {
+        background-image: url("../2026-web-camp/project_2.png");
+    }
+
+    &:nth-of-type(3) {
+        background-image: url("../2026-web-camp/project_3.png");
+    }
+}
+
+
+/* BLOG卡片區塊 */
+.blog-card {
+    width: 416px;
+}
+
+
+
+
+
+
+.project-content {
+    max-width: 386px;
+}
+
+/* 裝飾1 */
+.decorate-1 {
+    position: absolute;
+    top: 97px;
+    left: -81px;
+}
+
+.decorate-2 {
+    position: absolute;
+    bottom: 87px;
+    right: -80px;
+}
+
+.decorate-3 {
+    position: absolute;
+    top: 56px;
+    left: -226px;
+}
+
+.decorate-4 {
+    position: absolute;
+    top: 120px;
+    left: -87px;
+}
+
+.decorate-3-2 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    bottom: 192px;
+    left: 391px;
+}
+
+
+.decorate-3-3 {
+    position: absolute;
+    top: 206px;
+    right: -170px;
+}
+
+
+.decorate-5 {
+    position: absolute;
+    left: 211px;
+    bottom: 83.53px;
+
+}
+
+.decorate-6 {
+    display: none;
+}
+
+.card {
+    min-width: 306px;
+}
+
+
+@media (max-width:992px) {
+
+    /* 行動裝置預設關閉 */
+    .hero {
+        height: calc(100vh - 68px);
+    }
+
+    /* 漢堡選單手機版顯示 */
+    .btn-menu {
+        display: block;
+        /* border: 1px solid var(--color-neutral-700); */
+        /* 手機版漢堡選單有一個外框 */
+        /* border-radius: 50%; */
+        /* 使外框變成圓形  */
+    }
+
+
+    /* 預設顯示漢堡 */
+    .btn-menu .close-icon {
+        display: none;
+    }
+
+    .btn-menu .open-icon {
+        display: block;
+    }
+
+    /* 選單打開時切換圖示 */
+    .menu-open .btn-menu .close-icon {
+        display: block;
+    }
+
+    .menu-open .btn-menu .open-icon {
+        display: none;
+    }
+
+
+
+    .nav-list {
+        display: none;
+    }
+
+
+    /* 行動版開啟狀態 */
+    .nav-list.active {
+        padding: 12px 0;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        z-index: 2;
+        background: var(--color-primary-50);
+        width: 100%;
+        text-align: center;
+        gap: 12px;
+    }
+
+    body.menu-open {
+        overflow: hidden;
+    }
+
+    body.menu-open .mask {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: var(--color-dark-60a);
+        z-index: 2;
+
+    }
+
+    .project-card {
+        padding-top: 280px;
+
+        &:nth-of-type(1) {
+            background-image: url("../2026-web-camp/mobile/project_1.png");
+        }
+
+        &:nth-of-type(2) {
+            background-image: url("../2026-web-camp/mobile/project_2.png");
+        }
+
+        &:nth-of-type(3) {
+            background-image: url("../2026-web-camp/mobile/project_3.png");
+        }
+
+
+    }
+
+    .contact-input-half {
+        width: 100%;
+    }
+
+    /* Blogs 區塊樣式 */
+
+    .blog-card {
+        min-width: 260px;
+    }
+
+    .project-content {
+        max-width: 100%;
+    }
+
+    .subscriptions {
+        background-image: url("../2026-web-camp/mobile/subscription_bg.png");
+        /*mobile版本背景 */
+    }
+
+
+
+    /* 裝飾圖片響應式 */
+    .decorate-1 {
+        top: 26px;
+        left: -27px;
+        width: 80px;
+        height: 79px;
+    }
+
+    .decorate-2 {
+        top: 274px;
+        right: -25px;
+        width: 80px;
+        height: 69px;
+    }
+
+    .decorate-3 {
+        width: 80px;
+        height: 80px;
+        top: 414px;
+        left: 249px;
+    }
+
+    .decorate-4 {
+        display: none;
+    }
+
+    .decorate-3-2 {
+        display: none;
+    }
+
+
+    .decorate-3-3 {
+        display: none;
+    }
+
+
+    .decorate-5 {
+        display: none;
+
+    }
+
+    .decorate-6 {
+    position: absolute;
+    display: block;
+    top: 398.41px;
+    left: 134.5px;
+
+    
+}
+
+   .card {
+     min-width: 260px;
+    }
+
+}
+
+
+
+
+.tab-item {
+    text-align: center;
+    color: var(--color-neutral-700);
+}
+
+.tab-item.active,
+.tab-item:hover {
+    background-color: var(--color-primary-900);
+    color: var(--color-neutral-0);
+}
+
+.tab-link {
+    display: block;
+    padding: 12px 0;
+
+}
+
+
+.card-content {
+    color: var(--color-neutral-700);
+    flex: 1;
+    /*讓這個元素撐滿父容器剩餘空間*/
+    display: flex;
+    /*上下置中*/
+    flex-direction: column;
+    /*跟上面displa flex搭配，達到上下置中效果*/
+    margin: auto 0;
+    /*通常auto 跟 0 會一起出現，讓物件置中*/
+}
+
+
+
+
