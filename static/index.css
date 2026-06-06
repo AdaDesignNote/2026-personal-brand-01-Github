@@ -60,7 +60,9 @@
 }
 
 
-
+ul.d-flex {
+    max-width: 100%;
+}
 
 
 
