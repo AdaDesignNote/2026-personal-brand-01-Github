@@ -62,6 +62,11 @@
 
 ul.d-flex {
     max-width: 100%;
+    scrollbar-width: none; /* Firefox */
+}
+
+ul.d-flex::-webkit-scrollbar {
+    display: none; /* Chrome、Safari */
 }
 
 
