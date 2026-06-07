@@ -229,15 +229,17 @@ a {
 }
 
 .btn-sizing {
-    box-sizing: border-box;  /* border 不會額外增加高度 */
-    height: 64px;  /* 直接固定高度 */
+  box-sizing: border-box;
+  /* border 不會額外增加高度 */
+  height: 64px;
+  /* 直接固定高度 */
 
-  }
+}
 
 
 
-.span-pointer{
-   cursor: pointer;
+.span-pointer {
+  cursor: pointer;
 }
 
 
@@ -308,6 +310,7 @@ a {
 .mr-4 {
   margin-right: 4px;
 }
+
 .mr-24 {
   margin-right: 24px;
 }
@@ -346,11 +349,9 @@ a {
 }
 
 
-
 .pb-4 {
   padding-bottom: 4px;
 }
-
 
 
 .p-8 {
@@ -511,8 +512,6 @@ a {
   position: relative;
 }
 
-
-
 .border-0 {
   border: none;
 }
@@ -598,7 +597,6 @@ a {
 }
 
 
-
 /* container 設定 */
 
 .container {
@@ -661,6 +659,7 @@ textarea::placeholder {
   font-size: 16px;
   font-weight: 500;
 }
+
 /*這段讓placeholer文字變白*/
 
 
@@ -732,7 +731,7 @@ textarea::placeholder {
 
 
 
-.py-md-12 {
+  .py-md-12 {
     padding-top: 12px;
     padding-bottom: 12px;
   }
@@ -766,7 +765,7 @@ textarea::placeholder {
     padding-bottom: 16px;
   }
 
-    .pb-md-12 {
+  .pb-md-12 {
     padding-bottom: 12px;
   }
 
@@ -802,7 +801,6 @@ textarea::placeholder {
     display: block;
   }
 
-
   .order-md-1 {
     order: 1;
   }
@@ -811,11 +809,9 @@ textarea::placeholder {
     order: 2;
   }
 
- .order-md-3{
-    order:3;
+  .order-md-3 {
+    order: 3;
   }
-
-
 
   .rounded-md-32 {
     border-radius: 32px;
@@ -832,8 +828,6 @@ textarea::placeholder {
   .overflow-x-auto {
     overflow-x: auto;
   }
-
-
 
   .lable-mobile-sm {
     font-size: 14px;
@@ -872,13 +866,10 @@ textarea::placeholder {
     font-weight: 500;
   }
 
-
   .paragraph-mobile-sm {
     font-size: 14px;
     font-weight: 500;
   }
-
-
 
   .paragraph-mobile-xs {
     font-size: 13px;
@@ -910,7 +901,7 @@ textarea::placeholder {
     margin-bottom: 12px;
   }
 
-    .mb-md-24 {
+  .mb-md-24 {
     margin-bottom: 24px;
   }
 
@@ -918,12 +909,12 @@ textarea::placeholder {
     margin-bottom: 40px;
   }
 
-    input::placeholder,
-textarea::placeholder {
-  color: var(--color-neutral-0);
-  font-size: 14px;
-  font-weight: 500;
-}
+  input::placeholder,
+  textarea::placeholder {
+    color: var(--color-neutral-0);
+    font-size: 14px;
+    font-weight: 500;
+  }
 
 
 }
@@ -989,6 +980,3 @@ textarea::placeholder {
     /* 從最左邊開始 */
   }
 }
-
-
-

@@ -134,7 +134,9 @@ ul.d-flex::-webkit-scrollbar {
 
     /* 行動裝置預設關閉 */
     .hero {
-        height: calc(100vh - 68px);
+        /*height: calc(100vh - 68px);*/
+        overflow: hidden;
+        /*加上這個才不會因為裝飾圖片突出範圍而左右滑動*/
     }
 
     /* 漢堡選單手機版顯示 */
@@ -165,12 +167,9 @@ ul.d-flex::-webkit-scrollbar {
         display: none;
     }
 
-
-
     .nav-list {
         display: none;
     }
-
 
     /* 行動版開啟狀態 */
     .nav-list.active {
@@ -187,9 +186,7 @@ ul.d-flex::-webkit-scrollbar {
         gap: 12px;
     }
 
-    body.menu-open {
-
-    }
+    body.menu-open {}
 
     body.menu-open .mask {
         position: fixed;
@@ -199,9 +196,7 @@ ul.d-flex::-webkit-scrollbar {
         height: 100%;
         background-color: var(--color-dark-60a);
         z-index: 2;
-
     }
-
 
 
     .project-card {
