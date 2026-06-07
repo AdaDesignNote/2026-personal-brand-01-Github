@@ -958,19 +958,6 @@ textarea::placeholder {
 
 /*上面是半透明Blog文字*/
 
-/*------------------------------以下是卡片內容區塊----------------------------------*/
-
-
-.cards-wrap {
-  max-width: 1296px;
-  padding: 0px 16px;
-  /*推開左右邊*/
-  margin: auto;
-  margin-top: 80px;
-  background: pink;
-
-}
-
 
 /*------------------------------以下是電子報區塊----------------------------------*/
 
@@ -1004,52 +991,4 @@ textarea::placeholder {
 }
 
 
-.f-nl-c-img {
-  width: 526px;
-  height: 440px;
-  /* 確保圖片不超出父層 */
-}
-
-.f-nl-c-input {
-  width: 746px;
-}
-
-.f-nl-c-input-1 {
-  width: 666px;
-  color: var(--color-neutral-0);
-  margin-bottom: 30px;
-}
-
-.f-nl-c-input-1-w {
-  font-size: 16px;
-}
-
-.f-nl-c-input-2 {
-  width: 666px;
-  height: 64px;
-  border: 1px solid var(--color-neutral-0);
-  border-radius: 40px;
-  /*圓角*/
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-
-.f-nl-c-input-2-w {
-  color: var(--color-neutral-0);
-  margin-left: 25px;
-}
-
-.f-nl-c-input-2-b {
-  width: 81px;
-  height: 48px;
-  color: var(--color-neutral-700);
-  background: var(--color-neutral-0);
-  border-radius: 50px;
-  margin-right: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
