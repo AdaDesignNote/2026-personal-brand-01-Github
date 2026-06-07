@@ -186,8 +186,6 @@ ul.d-flex::-webkit-scrollbar {
         gap: 12px;
     }
 
-    body.menu-open {}
-
     body.menu-open .mask {
         position: fixed;
         top: 0;
