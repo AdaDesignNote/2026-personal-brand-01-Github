@@ -325,3 +325,69 @@ ul.d-flex::-webkit-scrollbar {
     margin: auto 0;
     /*通常auto 跟 0 會一起出現，讓物件置中*/
 }
+
+
+
+.btn-hover:hover {
+    background: var(--color-primary-900);
+    color: var(--color-neutral-0);
+}
+
+
+/* 轉圈圈動畫 */
+
+@keyframes spin-r{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.spin-r-45 {
+    animation: spin-r 45s linear infinite;
+}
+
+.spin-r-30 {
+    animation: spin-r 30s linear infinite;
+}
+
+.spin-r-15 {
+    animation: spin-r 15s linear infinite;
+}
+
+.spin-r-10 {
+    animation: spin-r 10s linear infinite;
+}
+
+@keyframes spin-l{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+.spin-l-45 {
+    animation: spin-l 45s linear infinite;
+}
+
+
+.spin-l-30 {
+    animation: spin-l 30s linear infinite;
+}
+
+
+.spin-l-15 {
+    animation: spin-l 15s linear infinite;
+}
+
+
+.spin-l-10 {
+    animation: spin-l 10s linear infinite;
+}
+
+
